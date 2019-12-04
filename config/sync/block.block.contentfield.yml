@@ -1,0 +1,37 @@
+uuid: ae8050a0-d566-4f21-a0c7-cda359d0985b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+  module:
+    - ctools
+    - fieldblock
+    - image
+  theme:
+    - d8test
+id: contentfield
+theme: d8test
+region: fullheadband
+weight: -7
+provider: null
+plugin: 'fieldblock:node'
+settings:
+  id: 'fieldblock:node'
+  label: 'Content field'
+  provider: fieldblock
+  label_display: '0'
+  label_from_field: false
+  field_name: field_image
+  formatter_id: image
+  formatter_settings:
+    image_style: bandeau_spectacle
+    image_link: ''
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      show: show
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

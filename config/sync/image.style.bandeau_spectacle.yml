@@ -1,0 +1,15 @@
+uuid: bc29ac81-df95-4fdc-ae95-c09bd0bbe81e
+langcode: en
+status: true
+dependencies: {  }
+name: bandeau_spectacle
+label: 'Bandeau spectacle'
+effects:
+  e3102404-9a00-446d-be3c-9e550fe5efd1:
+    uuid: e3102404-9a00-446d-be3c-9e550fe5efd1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1935
+      height: 693
+      anchor: center-center

@@ -1,0 +1,22 @@
+uuid: 0c88e444-80eb-4484-bb3d-cd2a7faa881e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8test
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: d8test_content
+theme: d8test
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
