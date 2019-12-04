@@ -7672,4 +7672,11 @@ a.close.disabled {
 img {
   max-width: 100%; }
 
+/* Gestion de la position de l'image et des champs des spectacles*/
+#main-wrapper {
+  position: relative; }
+  #main-wrapper #main {
+    position: absolute;
+    top: 0; }
+
 /*# sourceMappingURL=bootstrap.css.map */

@@ -1,7 +1,12 @@
-body { 
-
- }
-
  img {
      max-width: 100%;
+ }
+
+ /* Gestion de la position de l'image et des champs des spectacles*/
+ #main-wrapper {
+     position: relative;
+     #main {
+         position:absolute;
+         top: 0;
+     }
  }
